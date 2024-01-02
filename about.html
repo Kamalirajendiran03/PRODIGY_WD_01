@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: lightpink;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: pink; /* Green color for the header */
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #e26f91; /* Green color for links */
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #e26f91; /* Darker green on hover */
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+
+        .content {
+            padding: 80px 20px;
+            background-color: lightpink;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h2 {
+            color: #e26f91; /* Green color for heading */
+        }
+
+    </style>
+    <title>About Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>About Us</h1>
+        <p>Transforming the Way People Learn</p>
+
+        <div class="service">
+            <h2>Our Mission</h2>
+            <p>Our mission is to create innovative and accessible learning solutions that empower people of all ages and backgrounds to achieve their full potential.</p>
+        </div>
+
+        <div class="service">
+            <h2>Our Team</h2>
+            <p>If you're looking for an innovative and dynamic learning experience that will help you achieve your goals and unlock your full potential, we invite you to join us on this exciting journey.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

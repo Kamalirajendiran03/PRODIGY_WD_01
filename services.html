@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: lightpink;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: pink;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #e26f91;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #e26f91;
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+
+        .content {
+            padding: 80px 20px;
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h2 {
+            color: #e26f91;
+        }
+    </style>
+    <title>Our Internships</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Our Internships</h1>
+        
+        <div class="service">
+            <h2>MACHINE LEARNING</h2>
+            <p>Description of Machine learning internship goes here. You will get an overview of what ML is and learn more on Data analysis, supervised learning, unsupervised learning, deep learning.</p>
+        </div>
+
+        <div class="service">
+            <h2>WEB DEVELOPMENT</h2>
+            <p>Description of Web development internship goes here. You will get an overview of what Web is and will also learn HTML5&CSS3 , Javascript, to build an responsive website and web applications.</p>
+        </div>
+
+        <div class="service">
+            <h2>DATA SCIENCE </h2>
+            <p>Description of  Data science internship goes here. You will get an overview of what datascience is and also will get to learn EDA, Data-preprocessing, Data visualization, BI tools.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
